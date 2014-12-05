@@ -1,3 +1,7 @@
+// Code written by Tanmay Agrawal for simulation of two dimensional heat conduction problem with second order finite difference scheme.
+// Left, right and bottom walls are at a temperature of 20 units while the top wall has a sinusoidal temperature distribution.
+// Simulated with CUDA-C
+
 #include <cuda.h>
 #include <stdio.h>
 #include <stdlib.h>
